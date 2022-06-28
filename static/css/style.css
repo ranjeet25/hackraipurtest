@@ -452,7 +452,7 @@ From here this is CSS for visual.HTML
 }
 
 .intro h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #fff;
   background-color: #1a1a1a6b;
   padding: 25px 35px;
@@ -487,6 +487,7 @@ From here this is CSS for visual.HTML
 .guide_csv {
   background: linear-gradient(to right, #ff68a7, #ff50b3);
   max-width: 40vw;
+
   padding: 50px;
   height: 60vh;
   display: flex;
@@ -500,8 +501,8 @@ From here this is CSS for visual.HTML
 
 .guide_csv h2 {
   color: #ff68a7;
-  font-size: 2rem;
-  padding: 5px 40px;
+  font-size: 1.6rem;
+  padding: 10px 40px;
   background-color: #eee;
   border-radius: 35px;
 }
