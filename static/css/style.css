@@ -92,6 +92,7 @@ body {
 .intro-container h1 {
   font-size: 4rem;
   color: rgb(255, 255, 255);
+  font-family: "Mukta", sans-serif;
 }
 
 .intro-container a {
@@ -520,7 +521,26 @@ From here this is CSS for visual.HTML
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
-input[type="file"] {
+
+.upload_csv a {
+  padding: 20px 40px;
+  font-size: 1.2rem;
+  border-radius: 35px;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+  background-color: #25252500;
+  color: #4a00e0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.upload_csv a:hover {
+  box-shadow: rgba(29, 29, 51, 0.081) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.059) 0px 3px 7px -3px;
+  border: 1px solid #252525;
+  color: #252525;
+}
+/* input[type="file"] {
   background-color: #6115fa;
   font-family: "DM Sans", sans-serif;
   padding: 20px;
@@ -547,7 +567,7 @@ button[type="submit"] {
   border-radius: 35px;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-}
+} */
 
 .section-1 {
   display: flex;
